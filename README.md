@@ -5,10 +5,6 @@ date: "April 23, 2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Getting and Cleaning Data Course Project
 
 ### Purpose
@@ -22,7 +18,9 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 ### Data Source
 
-Here is the site where the data is obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Here is the site where the data is obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+
+Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### Precondition
 
