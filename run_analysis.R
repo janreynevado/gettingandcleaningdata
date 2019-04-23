@@ -3,6 +3,8 @@ library(data.table)
 
 #Downloading the data
 fileURL = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+
+#If file does not exist yet, proceed to download; otherwise, do nothing.
 if (!file.exists('./UCI HAR Dataset.zip')){
         download.file(fileURL,'./UCI HAR Dataset.zip', mode = 'wb')
         unzip("UCI HAR Dataset.zip", exdir = getwd())
