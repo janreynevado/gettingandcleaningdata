@@ -232,6 +232,8 @@ merged_data <- rbind(train_data, test_data)
 
 #### Extracting only the measurements on mean and standard deviation for each measurement
 
+*Note: The parentheses should be included in the grep function because mean frequency (which is not needed in this project) will be included otherwise.*
+
 ```r
 meanstd_select <- grep('mean\\(\\)|std\\(\\)', features)
 extracted_data <- merged_data[,c(1,2,meanstd_select + 2)]
