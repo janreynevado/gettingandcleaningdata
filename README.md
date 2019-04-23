@@ -31,8 +31,8 @@ The R script called ``run_analysis.R`` included in this repository does the foll
 
 ## Output
 
-The output (tidy data set) can be found [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/tidy_data.txt).
+The output (tidy data set) can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/tidy_data.txt).
 
 ## Code Book
 
-The Code Book named ``CodeBook.md`` for this project can be found [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/CodeBook.md). It explains the transformations performed and the resulting data and variables in detail.
+The Code Book named ``CodeBook.md`` for this project can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/CodeBook.md). It explains the transformations performed and the resulting data and variables in detail.
