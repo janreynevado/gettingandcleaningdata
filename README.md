@@ -31,7 +31,7 @@ The R script called ``run_analysis.R`` included in this repository does the foll
 
 ## Output
 
-The output (tidy data set) can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/tidy_data.txt).
+The output (tidy data set) can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/tidy_data.txt). As defined in the script functionality, it contains the average of each variable for each activity and each subject.
 
 ## Code Book
 
