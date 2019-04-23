@@ -11,7 +11,6 @@ if (!file.exists('./UCI HAR Dataset.zip')){
 }
 
 #Merging the training and the test sets to create one data set
-
 ##Importing the data from features.txt file
 features <- read.csv('./UCI HAR Dataset/features.txt', header = FALSE, sep = ' ')
 
