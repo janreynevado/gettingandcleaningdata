@@ -17,7 +17,7 @@ Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata
 
 ## Precondition
 
-Before working on with the data, it needs to be downloaded from the [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). After the file has been downloaded, it needs to be unzipped and get extracted to the working directory. Lines of code were already included in the ``run_analysis.R`` file in this repository to fulfill these preconditions.
+Before working on with the data, it needs to be downloaded from the [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). After the file is downloaded, it needs to be unzipped and get extracted to the working directory. Lines of code were already included in the ``run_analysis.R`` file in this repository to fulfill these preconditions.
 
 ## Script Functionality
 
