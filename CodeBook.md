@@ -143,9 +143,9 @@ This section contains the variables used in the tidy data and the corresponding 
 | frequencydomainsignalbodyaccelerometerjerkmeanx| Mean frequency of body acceleration jerk for X direction
 | frequencydomainsignalbodyaccelerometerjerkmeany | Mean frequency of body acceleration jerk for Y direction
 | frequencydomainsignalbodyaccelerometerjerkmeanz | Mean frequency of body acceleration jerk for Z direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation frequency of body accerlation jerk for X direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation frequency of body accerlation jerk for Y direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation frequency of body accerlation jerk for Z direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation frequency of body acceleration jerk for X direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation frequency of body acceleration jerk for Y direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation frequency of body acceleration jerk for Z direction
 | frequencydomainsignalbodygyroscopemeanx | Mean frequency of body gyroscope measurement for X direction
 | frequencydomainsignalbodygyroscopemeany | Mean frequency of body gyroscope measurement for Y direction
 | frequencydomainsignalbodygyroscopemeanz | Mean frequency of body gyroscope measurement for Z direction
