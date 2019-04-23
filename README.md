@@ -35,4 +35,4 @@ The output ``tidy_data.txt`` can be viewed [here](https://github.com/janreynevad
 
 ## Code Book
 
-The Code Book named ``CodeBook.md`` for this project can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/CodeBook.md). It explains the transformations performed and the resulting data and variables in detail.
+The Code Book named ``CodeBook.md`` for this project can be viewed [here](https://github.com/janreynevado/gettingandcleaningdata/blob/master/CodeBook.md). It explains the transformations performed and the resulting data and variables in detail. To see how the script works, please open this file.
