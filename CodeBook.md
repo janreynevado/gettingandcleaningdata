@@ -59,7 +59,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are: 
 
-*Items in bold are the only variables that are kept for this project.*
+*Note: Items in bold are the only variables that were kept for this project.*
 
 * **mean(): Mean value**
 * **std(): Standard deviation**
