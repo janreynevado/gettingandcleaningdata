@@ -167,13 +167,13 @@ This section contains the variables used in the tidy data and the corresponding 
 
 Loading the required package
 
-```
+```r
 library(data.table)
 ```
 
 Downloading the data
 
-```
+```r
 fileURL = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 if (!file.exists('./UCI HAR Dataset.zip')){
         download.file(fileURL,'./UCI HAR Dataset.zip', mode = 'wb')
@@ -184,19 +184,19 @@ if (!file.exists('./UCI HAR Dataset.zip')){
 
 Importing the data from features.txt file
 
-```
+```r
 features <- read.csv('./UCI HAR Dataset/features.txt', header = FALSE, sep = ' ')
 ```
 
 Getting only the second column of the data frame and converting it to character type
 
-```
+```r
 features <- as.character(features[,2])
 ```
 
 Loading the training data
 
-```
+```r
 train_x <- read.table('./UCI HAR Dataset/train/X_train.txt') 
 train_activity <- read.csv('./UCI HAR Dataset/train/y_train.txt', header = FALSE, sep = ' ')
 train_subject <- read.csv('./UCI HAR Dataset/train/subject_train.txt', header = FALSE, sep = ' ')
@@ -204,14 +204,14 @@ train_subject <- read.csv('./UCI HAR Dataset/train/subject_train.txt', header = 
 
 Combining all the training data frames into one data frame and changing the names of the headers
 
-```
+```r
 train_data <-  data.frame(train_subject, train_activity, train_x) 
 names(train_data) <- c(c('subject', 'activity'), features)
 ```
 
 Loading the testing data
 
-```
+```r
 test_x <- read.table('./UCI HAR Dataset/test/X_test.txt')
 test_activity <- read.csv('./UCI HAR Dataset/test/y_test.txt', header = FALSE, sep = ' ')
 test_subject <- read.csv('./UCI HAR Dataset/test/subject_test.txt', header = FALSE, sep = ' ')
@@ -219,27 +219,27 @@ test_subject <- read.csv('./UCI HAR Dataset/test/subject_test.txt', header = FAL
 
 Combining all the testing data frames into one data frame and changing the names of the headers
 
-```
+```r
 test_data <-  data.frame(test_subject, test_activity, test_x)
 names(test_data) <- c(c('subject', 'activity'), features) 
 ```
 
 Merging the training and testing data frames into one data frame
 
-```
+```r
 merged_data <- rbind(train_data, test_data)
 ```
 
 #### Extracting only the measurements on mean and standard deviation for each measurement
 
-```
+```r
 meanstd_select <- grep('mean\\(\\)|std\\(\\)', features)
 extracted_data <- merged_data[,c(1,2,meanstd_select + 2)]
 ```
 
 #### Using descriptive activity names to name the activities in the data set
 
-```
+```r
 activity_labels <- read.table('./UCI HAR Dataset/activity_labels.txt', header = FALSE)
 activity_labels <- as.character(activity_labels[,2])
 extracted_data$activity <- activity_labels[extracted_data$activity]
@@ -247,7 +247,7 @@ extracted_data$activity <- activity_labels[extracted_data$activity]
 
 #### Appropriately labeling the data set with descriptive variable names
 
-```
+```r
 names(extracted_data)[2] = "activity"
 names(extracted_data) <- gsub("Acc", "Accelerometer", names(extracted_data))
 names(extracted_data) <- gsub("Gyro", "Gyroscope", names(extracted_data))
@@ -266,7 +266,7 @@ names(extracted_data) <- tolower(names(extracted_data))
 
 #### Creating a second, independent tidy data set with the average of each variable for each activity and each subject
 
-```
+```r
 tidy_data <- aggregate(extracted_data[,3:68], by = list(activity = extracted_data$activity, subject = extracted_data$subject),FUN = mean)
 write.table(x = tidy_data, file = "tidy_data.txt", row.names = FALSE)
 ```
