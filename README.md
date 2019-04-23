@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit:
+The purpose of this project is to demonstrate one's ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. One will be graded by his/her peers on a series of yes/no questions related to the project. One will be required to submit:
 
 1. a tidy data set as described below,
 2. a link to a Github repository with your script for performing the analysis,
