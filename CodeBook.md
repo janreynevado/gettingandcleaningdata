@@ -94,72 +94,72 @@ This section contains the variables used in the tidy data and the corresponding 
 -----------|-------------
 | activities | The activity performed
 | subject | Subject ID
-| timedomainsignalbodyaccelerometermeanx | Mean time for acceleration of body for X direction
-| timedomainsignalbodyaccelerometermeany | Mean time for acceleration of body for Y direction
-| timedomainsignalbodyaccelerometermeanz | Mean time for acceleration of body for Z direction
-| timedomainsignalbodyaccelerometerstandarddeviationx | Standard deviation of time for acceleration of body for X direction
-| timedomainsignalbodyaccelerometerstandarddeviationy | Standard deviation of time for acceleration of body for Y direction
-| timedomainsignalbodyaccelerometerstandarddeviationz | Standard deviation of time for acceleration of body for Z direction
-| timedomainsignalgravityaccelerometermeanx | Mean time of acceleration of gravity for X direction
-| timedomainsignalgravityaccelerometermeany | Mean time of acceleration of gravity for Y direction
-| timedomainsignalgravityaccelerometermeanz | Mean time of acceleration of gravity for Z direction
-| timedomainsignalgravityaccelerometerstandarddeviationx | Standard deviation of time of acceleration of gravity for X direction
-| timedomainsignalgravityaccelerometerstandarddeviationy | Standard deviation of time of acceleration of gravity for Y direction
-| timedomainsignalgravityaccelerometerstandarddeviationz | Standard deviation of time of acceleration of gravity for Z direction
-| timedomainsignalbodyaccelerometerjerkmeanx | Mean time of body acceleration jerk for X direction
-| timedomainsignalbodyaccelerometerjerkmeany | Mean time of body acceleration jerk for Y direction
-| timedomainsignalbodyaccelerometerjerkmeanz| Mean time of body acceleration jerk for Z direction
-| timedomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation of time of body acceleration jerk for X direction
-| timedomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation of time of body acceleration jerk for Y direction
-| timedomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation of time of body acceleration jerk for Z direction
-| timedomainsignalbodygyroscopemeanx | Mean body gyroscope measurement for X direction
-| timedomainsignalbodygyroscopemeany | Mean body gyroscope measurement for Y direction
-| timedomainsignalbodygyroscopemeanz | Mean body gyroscope measurement for Z direction
-| timedomainsignalbodygyroscopestandarddeviationx | Standard deviation of body gyroscope measurement for X direction
-| timedomainsignalbodygyroscopestandarddeviationy | Standard deviation of body gyroscope measurement for Y direction
-| timedomainsignalbodygyroscopestandarddeviationz | Standard deviation of body gyroscope measurement for Z direction
-| timedomainsignalbodygyroscopejerkmeanx | Mean jerk signal of body for X direction
-| timedomainsignalbodygyroscopejerkmeany | Mean jerk signal of body for Y direction
-| timedomainsignalbodygyroscopejerkmeanz | Mean jerk signal of body for Z direction
-| timedomainsignalbodygyroscopejerkstandarddeviationx | Standard deviation of jerk signal of body for X direction
-| timedomainsignalbodygyroscopejerkstandarddeviationy | Standard deviation of jerk signal of body for Y direction
-| timedomainsignalbodygyroscopejerkstandarddeviationz | Standard deviation of jerk signal of body for Z direction
-| timedomainsignalbodyaccelerometermagnitudemean | Mean magnitude of body Acc
-| timedomainsignalbodyaccelerometermagnitudestandarddeviation | Standard deviation of magnitude of body acceleration
-| timedomainsignalgravityaccelerometermagnitudemean | Mean gravity acceleration magnitude
-| timedomainsignalbodyaccelerometermagnitudestandarddeviation | Standard deviation of gravity acceleration magnitude
-| timedomainsignalbodyaccelerometerjerkmagnitudemean | Mean magnitude of body acceleration jerk
-| timedomainsignalbodyaccelerometerjerkmagnitudestandarddeviation | Standard deviation of magnitude of body acceleration jerk
-| timedomainsignalbodygyroscopemagnitudemean | Mean magnitude of body gyroscope measurement
-| timedomainsignalbodygyroscopemagnitudestandarddeviation | Standard deviation of magnitude of body gyroscope measurement
-| timedomainsignalbodygyroscopejerkmagnitudemean | Mean magnitude of body body gyroscope jerk measurement
-| timedomainsignalbodygyroscopejerkmagnitudestandarddeviation | Standard deviation of magnitude of body body gyroscope jerk measurement
-| frequencydomainsignalbodyaccelerometermeanx | Mean frequency of body acceleration for X direction
-| frequencydomainsignalbodyaccelerometermeany | Mean frequency of body acceleration for Y direction
-| frequencydomainsignalbodyaccelerometermeanz | Mean frequency of body acceleration for Z direction
-| frequencydomainsignalbodyaccelerometerstandarddeviationx | Standard deviation of frequency of body acceleration for X direction
-| frequencydomainsignalbodyaccelerometerstandarddeviationy | Standard deviation of frequency of body acceleration for Y direction
-| frequencydomainsignalbodyaccelerometerstandarddeviationz | Standard deviation of frequency of body acceleration for Z direction
-| frequencydomainsignalbodyaccelerometerjerkmeanx| Mean frequency of body acceleration jerk for X direction
-| frequencydomainsignalbodyaccelerometerjerkmeany | Mean frequency of body acceleration jerk for Y direction
-| frequencydomainsignalbodyaccelerometerjerkmeanz | Mean frequency of body acceleration jerk for Z direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation frequency of body acceleration jerk for X direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation frequency of body acceleration jerk for Y direction
-| frequencydomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation frequency of body acceleration jerk for Z direction
-| frequencydomainsignalbodygyroscopemeanx | Mean frequency of body gyroscope measurement for X direction
-| frequencydomainsignalbodygyroscopemeany | Mean frequency of body gyroscope measurement for Y direction
-| frequencydomainsignalbodygyroscopemeanz | Mean frequency of body gyroscope measurement for Z direction
-| frequencydomainsignalbodygyroscopestandarddeviationx | Standard deviation frequency of body gyroscope measurement for X direction
-| frequencydomainsignalbodygyroscopestandarddeviationy | Standard deviation frequency of body gyroscope measurement for Y direction
-| frequencydomainsignalbodygyroscopestandarddeviationz | Standard deviation frequency of body gyroscope measurement for Z direction
-| frequencydomainsignalbodyaccelerometermagnitudemean | Mean frequency of body acceleration magnitude
-| frequencydomainsignalbodyaccelerometermagnitudestandarddeviation | Standard deviation of frequency of body acceleration magnitude
-| frequencydomainsignalbodyaccelerometerjerkmagnitudemean | Mean frequency of body acceleration jerk magnitude
-| frequencydomainsignalbodyaccelerometerjerkmagnitudestandarddeviation | Standard deviation of frequency of body acceleration jerk magnitude
-| frequencydomainsignalbodygyroscopemagnitudemean | Mean frequency of magnitude of body gyroscope measurement
-| frequencydomainsignalbodygyroscopemagnitudestandarddeviation | Standard deviation of frequency of magnitude of body gyroscope measurement
-| frequencydomainsignalbodygyroscopejerkmagnitudemean | Mean frequency of magnitude of body gyroscope jerk measurement
-| frequencydomainsignalbodygyroscopejerkmagnitudestandarddeviation | Standard deviation frequency of magnitude of body gyroscope jerk measurement
+| timedomainsignalbodyaccelerometermeanx | Mean of the time domain body acceleration in X direction
+| timedomainsignalbodyaccelerometermeany | Mean of the time domain body acceleration in Y direction
+| timedomainsignalbodyaccelerometermeanz | Mean of the time domain body acceleration in Z direction
+| timedomainsignalbodyaccelerometerstandarddeviationx | Standard deviation of time domain body acceleration in X direction
+| timedomainsignalbodyaccelerometerstandarddeviationy | Standard deviation of time domain body acceleration in Y direction
+| timedomainsignalbodyaccelerometerstandarddeviationz | Standard deviation of time domain body acceleration in Z direction
+| timedomainsignalgravityaccelerometermeanx | Mean of the time domain gravity acceleration in X direction
+| timedomainsignalgravityaccelerometermeany | Mean of the time domain gravity acceleration in Y direction
+| timedomainsignalgravityaccelerometermeanz | Mean of the time domain gravity acceleration in Z direction
+| timedomainsignalgravityaccelerometerstandarddeviationx | Standard deviation of the time domain gravity acceleration in X direction
+| timedomainsignalgravityaccelerometerstandarddeviationy | Standard deviation of the time domain gravity acceleration in Y direction
+| timedomainsignalgravityaccelerometerstandarddeviationz | Standard deviation of the time domain gravity acceleration in Z direction
+| timedomainsignalbodyaccelerometerjerkmeanx | Mean of the time domain body acceleration jerk (rate of change of acceleration) in X direction
+| timedomainsignalbodyaccelerometerjerkmeany | Mean of the time domain body acceleration jerk (rate of change of acceleration) in Y direction
+| timedomainsignalbodyaccelerometerjerkmeanz | Mean of the time domain body acceleration jerk (rate of change of acceleration) in Z direction
+| timedomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation of the time domain body acceleration jerk (rate of change of acceleration) in X direction
+| timedomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation of the time domain body acceleration jerk (rate of change of acceleration) in Y direction
+| timedomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation of the time domain body acceleration jerk (rate of change of acceleration) in Z direction
+| timedomainsignalbodygyroscopemeanx | Mean of the time domain body angular velocity in X direction
+| timedomainsignalbodygyroscopemeany | Mean of the time domain body angular velocity in Y direction
+| timedomainsignalbodygyroscopemeanz | Mean of the time domain body angular velocity in Z direction
+| timedomainsignalbodygyroscopestandarddeviationx | Standard deviation of the time domain body angular velocity in X direction
+| timedomainsignalbodygyroscopestandarddeviationy | Standard deviation of the time domain body angular velocity in Y direction
+| timedomainsignalbodygyroscopestandarddeviationz | Standard deviation of the time domain body angular velocity in Z direction
+| timedomainsignalbodygyroscopejerkmeanx | Mean of the time domain body angular velocity jerk in X direction
+| timedomainsignalbodygyroscopejerkmeany | Mean of the time domain body angular velocity jerk in Y direction
+| timedomainsignalbodygyroscopejerkmeanz | Mean of the time domain body angular velocity jerk in Z direction
+| timedomainsignalbodygyroscopejerkstandarddeviationx | Standard deviation of the time domain body angular velocity jerk in X direction
+| timedomainsignalbodygyroscopejerkstandarddeviationy | Standard deviation of the time domain body angular velocity jerk in Y direction
+| timedomainsignalbodygyroscopejerkstandarddeviationz | Standard deviation of the time domain body angular velocity jerk in Z direction
+| timedomainsignalbodyaccelerometermagnitudemean | Mean of the time components of time domain magnitude of body acceleration
+| timedomainsignalbodyaccelerometermagnitudestandarddeviation | Standard deviation of the time components of time domain magnitude of body acceleration
+| timedomainsignalgravityaccelerometermagnitudemean | Mean of the time components of time domain magnitude of gravity acceleration
+| timedomainsignalgravityaccelerometermagnitudestandarddeviation | Standard deviation of the time components of time domain magnitude of gravity acceleration
+| timedomainsignalbodyaccelerometerjerkmagnitudemean | Mean of the time components of the time domain magnitude of body acceleration jerk
+| timedomainsignalbodyaccelerometerjerkmagnitudestandarddeviation | Standard deviation of the time components of the time domain magnitude of body acceleration jerk
+| timedomainsignalbodygyroscopemagnitudemean | Mean of the time components of the time domain magnitude of body angular velocity
+| timedomainsignalbodygyroscopemagnitudestandarddeviation | Standard deviation of the time components of the time domain magnitude of body angular velocity
+| timedomainsignalbodygyroscopejerkmagnitudemean | Mean of the time components of the time domain magnitude of body angular velocity jerk
+| timedomainsignalbodygyroscopejerkmagnitudestandarddeviation | Standard deviation of the time components of the time domain magnitude of body angular velocity jerk
+| frequencydomainsignalbodyaccelerometermeanx | Mean of the frequency domain body acceleration in X direction
+| frequencydomainsignalbodyaccelerometermeany | Mean of the frequency domain body acceleration in Y direction
+| frequencydomainsignalbodyaccelerometermeanz | Mean of the frequency domain body acceleration in Z direction
+| frequencydomainsignalbodyaccelerometerstandarddeviationx | Standard deviation of the frequency domain body acceleration in X direction
+| frequencydomainsignalbodyaccelerometerstandarddeviationy | Standard deviation of the frequency domain body acceleration in Y direction
+| frequencydomainsignalbodyaccelerometerstandarddeviationz | Standard deviation of the frequency domain body acceleration in Z direction
+| frequencydomainsignalbodyaccelerometerjerkmeanx | Mean of the frequency domain body acceleration jerk (rate of change of acceleration) in X direction
+| frequencydomainsignalbodyaccelerometerjerkmeany | Mean of the frequency domain body acceleration jerk (rate of change of acceleration) in Y direction
+| frequencydomainsignalbodyaccelerometerjerkmeanz | Mean of the frequency domain body acceleration jerk (rate of change of acceleration) in Z direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationx | Standard deviation of the frequency domain body acceleration jerk (rate of change of acceleration) in X direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationy | Standard deviation of the frequency domain body acceleration jerk (rate of change of acceleration) in Y direction
+| frequencydomainsignalbodyaccelerometerjerkstandarddeviationz | Standard deviation of the frequency domain body acceleration jerk (rate of change of acceleration) in Z direction
+| frequencydomainsignalbodygyroscopemeanx | Mean of the frequency domain body angular velocity in X direction
+| frequencydomainsignalbodygyroscopemeany | Mean of the frequency domain body angular velocity in Y direction
+| frequencydomainsignalbodygyroscopemeanz | Mean of the frequency domain body angular velocity in Z direction
+| frequencydomainsignalbodygyroscopestandarddeviationx | Standard deviation of the frequency domain body angular velocity in X direction
+| frequencydomainsignalbodygyroscopestandarddeviationy | Standard deviation of the frequency domain body angular velocity in Y direction
+| frequencydomainsignalbodygyroscopestandarddeviationz | Standard deviation of the frequency domain body angular velocity in Z direction
+| frequencydomainsignalbodyaccelerometermagnitudemean | Mean of the frequency components of frequency domain magnitude of body acceleration
+| frequencydomainsignalbodyaccelerometermagnitudestandarddeviation | Standard deviation of the frequency components of frequency domain magnitude of body acceleration
+| frequencydomainsignalbodyaccelerometerjerkmagnitudemean | Mean of the frequency components of frequency domain magnitude of body acceleration jerk
+| frequencydomainsignalbodyaccelerometerjerkmagnitudestandarddeviation | Standard deviation of the frequency components of frequency domain magnitude of body acceleration jerk
+| frequencydomainsignalbodygyroscopemagnitudemean | Mean of the frequency components of frequency domain magnitude of body angular velocity
+| frequencydomainsignalbodygyroscopemagnitudestandarddeviation | Standard deviation of the frequency components of frequency domain magnitude of body angular velocity
+| frequencydomainsignalbodygyroscopejerkmagnitudemean | Mean of the frequency components of frequency domain magnitude of body angular velocity jerk
+| frequencydomainsignalbodygyroscopejerkmagnitudestandarddeviation | Standard deviation of the frequency components of frequency domain magnitude of body angular velocity jerk
 
 ### Steps Taken to Transform and Clean the Data
 
