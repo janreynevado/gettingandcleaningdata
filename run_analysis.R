@@ -10,7 +10,7 @@ if (!file.exists('./UCI HAR Dataset.zip')){
         unzip("UCI HAR Dataset.zip", exdir = getwd())
 }
 
-#Reading and converting the data
+#Merging the training and the test sets to create one data set
 
 ##Importing the data from features.txt file
 features <- read.csv('./UCI HAR Dataset/features.txt', header = FALSE, sep = ' ')
