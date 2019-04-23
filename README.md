@@ -1,10 +1,3 @@
----
-title: 'Peer-graded Assignment: Getting and Cleaning Data Course Project'
-author: "Janrey Nevado"
-date: "April 23, 2019"
-output: html_document
----
-
 ## Getting and Cleaning Data Course Project
 
 ### Purpose
